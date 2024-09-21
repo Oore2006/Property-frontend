@@ -1,0 +1,30 @@
+.footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+
+}
+.us{
+    display: block;
+    position: relative;
+}
+.connect{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.connect img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40px;
+    /* margin: 2px; */ 
+}
+.img{
+    display: flex;
+    gap: 5px;
+}
