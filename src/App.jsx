@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
 import LandingPage from './pages/LandingPage'
+import About from './pages/About'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -18,8 +19,12 @@ const router = createBrowserRouter([
   {
       path: "/",
       element: <LandingPage/>
+  },
+  {
+    path: '/about',
+    element: <About />
   }
-])
+]);
 
 function App() {
   return (

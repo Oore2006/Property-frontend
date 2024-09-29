@@ -11,7 +11,9 @@ const Home =  () => {
                     Adelanre Consulting Agency
                 </h1>
                 <p className="hero-description"> 
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, aliquid hic nobis, doloribus fugit ut voluptatibus temporibus, exercitationem sunt quo adipisci debitis? Repudiandae, dicta et provident ratione aliquam aperiam eaque.
+                    we believe that your home is more than just a place—it's where memories are made.
+                     Whether you're buying, selling, or renting, our dedicated team of real estate experts is here to guide you every step of the way.
+                      With our extensive portfolio of properties and personalized service, we make your real estate journey seamless and enjoyable
                 </p>
                 <a href="#" className="hero-button">pick your plug</a>
             </div>
